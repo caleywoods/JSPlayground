@@ -189,14 +189,18 @@ class CrashTable {
     }
 }
 
-const hashtable = new CrashTable();
-hashtable.put('Karen', {age: 31, hometown: "Anytown, USA", hobbies: "Speaking to managers"});
-hashtable.put('Kyle', {age: 30, hometown: "Extreme, USA", hobbies: "Dirtbikes, Energy drinks, Punching drywall"});
-hashtable.put('Caley', {age: 999, hometown: "NoTown, USA", hobbies: "Pogonotrophy, Code"});
-hashtable.put('Felicia', {age: 24, hometown: "Friday, USA", hobbies: "Asking to borrow your car"});
+module.exports = {
+    CrashTable: CrashTable
+}
 
-console.log('Fetch by key Karen: ', hashtable.get('Karen'), '\n');
-console.log('Current hashtable data: ', hashtable.keys);
-// Bye Felicia
-hashtable.remove('Felicia');
-console.log('Hashtable data after bye felicia: ', hashtable.keys, 'hashtable.get(\'Felicia\') -> ', hashtable.get('Felicia'));
+// const hashtable = new CrashTable();
+// hashtable.put('Karen', {age: 31, hometown: "Anytown, USA", hobbies: "Speaking to managers"});
+// hashtable.put('Kyle', {age: 30, hometown: "Extreme, USA", hobbies: "Dirtbikes, Energy drinks, Punching drywall"});
+// hashtable.put('Caley', {age: 999, hometown: "NoTown, USA", hobbies: "Pogonotrophy, Code"});
+// hashtable.put('Felicia', {age: 24, hometown: "Friday, USA", hobbies: "Asking to borrow your car"});
+
+// console.log('Fetch by key Karen: ', hashtable.get('Karen'), '\n');
+// console.log('Current hashtable data: ', hashtable.keys);
+// // Bye Felicia
+// hashtable.remove('Felicia');
+// console.log('Hashtable data after bye felicia: ', hashtable.keys, 'hashtable.get(\'Felicia\') -> ', hashtable.get('Felicia'));
