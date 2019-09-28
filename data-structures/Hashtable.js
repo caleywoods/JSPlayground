@@ -190,14 +190,16 @@ class CrashTable {
 }
 
 module.exports = {
-    CrashTable: CrashTable
+    CrashTable: CrashTable,
+    Node: Node,
+    ShrinkedList: ShrinkedList
 }
 
 // const hashtable = new CrashTable();
 // hashtable.put('Karen', {age: 31, hometown: "Anytown, USA", hobbies: "Speaking to managers"});
 // hashtable.put('Kyle', {age: 30, hometown: "Extreme, USA", hobbies: "Dirtbikes, Energy drinks, Punching drywall"});
 // hashtable.put('Caley', {age: 999, hometown: "NoTown, USA", hobbies: "Pogonotrophy, Code"});
-// hashtable.put('Felicia', {age: 24, hometown: "Friday, USA", hobbies: "Asking to borrow your car"});
+// hashtable.put('Felicia', );
 
 // console.log('Fetch by key Karen: ', hashtable.get('Karen'), '\n');
 // console.log('Current hashtable data: ', hashtable.keys);
