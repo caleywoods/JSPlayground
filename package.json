@@ -1,0 +1,22 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "js code experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleywoods/JSPlayground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caleywoods/JSPlayground/issues"
+  },
+  "homepage": "https://github.com/caleywoods/JSPlayground#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
